@@ -2,6 +2,9 @@
 Stealing a computer won't be as easy as it used to be, as long as you have Python and an internet connection.
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FNoNameoN-A%2FSteal-Not-Safe&count_bg=%231C1C1C&title_bg=%231C1C1C&icon=protonmail.svg&icon_color=%23E7E7E7&title=Views+Count&edge_flat=false)](https://github.com/NoNameoN-A/Steal-Not-Safe)
 
+# Email Example
+![Email](https://github.com/NoNameoN-A/Steal-Not-Safe/blob/main/Email.png)
+
 # Functions
 1. main()
 2. get_photos(<photos' list>)
