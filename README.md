@@ -25,4 +25,5 @@ Append the name of the photo on the photos' list and save the photo.
 2. In 28 lines will create a MIMEMultipart object that you'll use to create the message that will be sent with the email
 3. in the `with` at 42 line you'll log in on your email then attach on the email the photos encoding in base64 using `from email import encoders` then send the email.
 
-## Guida In Italiano Step-By-Step in progress...
+## Guida In Italiano
+[Clicca qui](https://www.inforge.net/forum/threads/scattare-delle-foto-non-appena-viene-aperto-il-vostro-pc-in-python.604848/) per aprire la guida in Italiano
