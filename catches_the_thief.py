@@ -52,7 +52,6 @@ def send_email(photos):
                 f"attachment; filename= {photo}",
             )
             message.attach(part)
-            text = message.as_string()
         
         server.sendmail(
             sender_email, receiver_email, message.as_string()
