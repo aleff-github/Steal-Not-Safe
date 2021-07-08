@@ -1,10 +1,21 @@
+# Photos
 import cv2
+# Sleep
 import time
+# Email
 import email, smtplib, ssl
 from email import encoders
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from email.mime.base import MIMEBase
+# Internet
+from urllib.request import urlopen
+
+def internet_test():
+    try:
+        response = urlopen('https://www.google.com/', timeout=10)
+    except: 
+        time.sleep(10)
 
 def get_photos(photos):
     i = 0
@@ -59,6 +70,7 @@ def send_email(photos):
 
 def main():
     photos = []
+    internet_test()
     get_photos(photos)
     send_email(photos)
 
