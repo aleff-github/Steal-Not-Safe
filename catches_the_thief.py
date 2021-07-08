@@ -16,6 +16,7 @@ def internet_test():
         response = urlopen('https://www.google.com/', timeout=10)
     except: 
         time.sleep(10)
+        internet_test()
 
 def get_photos(photos):
     i = 0
