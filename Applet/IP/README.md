@@ -15,3 +15,5 @@ Change your email text with something like it
 text = "\
     Email sent automatically, access from your PC has been detected!\n\nIP Info:\n" + ip_info()
 ```
+# Email Example
+![Email](https://github.com/NoNameoN-A/Steal-Not-Safe/blob/main/Photos/photo1.png)
