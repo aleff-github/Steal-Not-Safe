@@ -7,11 +7,15 @@ Stealing a computer won't be as easy as it used to be, as long as you have Pytho
 
 # Functions
 1. main()
-2. get_photos(<photos' list>)
-3. send_email(<photos' list>)
+2. internet_test()
+3. get_photos(<photos' list>)
+4. send_email(<photos' list>)
 
 ## main()
 I wrote this function just to manage else functions
+
+## internet_test()
+Try to connect, if it isn't possibile go in sleep mode for 10 seconds, then retry...
 
 ## get_photos(<photos' list>)
 In this function i use 2 lib
